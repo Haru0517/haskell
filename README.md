@@ -7,6 +7,12 @@ Haskell code in advanced lecture on programing languages
 `docker-compose up`でコンテナ作成．
 `docker-compose exec app /bin/bash`でコンテナの中に入る．
 
+### コマンド
+:q(uit) 終了
+:l(oad) ファイルをロード
+
 ### 実行方法（hello.hsの場合）
-`ghc --make hello`でコンパイル．
+`ghci hello.hs`で対話モードで実行．
+
+mainがある場合は`ghc hello`でコンパイル．
 `./hello`で実行．
