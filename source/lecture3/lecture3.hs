@@ -54,7 +54,7 @@ main = do s<- getContents
 
 {- 
 実行例：
-ghc lecture3.hs
+ghc lecture3
 ./lecture3
 入力> Doshisha University
 Ctl+D> DUaehhiiinorssstvy
